@@ -9,12 +9,12 @@ class GetCharactersProvider implements GetCharactersProviderInterface
 {
     private string $url;
 
-    public function __construct(private HttpClientInterface $client
-    )
+    public function __construct(private readonly HttpClientInterface $client)
     {
         $this->url = 'https://s3.eu-west-2.amazonaws.com/build-circle/characters.json';
     }
-    function getCharacters(): object
+
+    public function getCharacters(): object
     {
         $response = $this->client->request(
             'GET',

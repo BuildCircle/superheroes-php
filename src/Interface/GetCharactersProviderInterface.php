@@ -4,5 +4,5 @@ namespace App\Interface;
 
 interface GetCharactersProviderInterface
 {
-    public function getCharacters():object;
+    public function getCharacters(): object;
 }
