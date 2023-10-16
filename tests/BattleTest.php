@@ -6,7 +6,10 @@ use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 
 class BattleTest extends WebTestCase
 {
-    public function testItReturns200Ok(): void
+    /**
+     * @test
+     */
+    public function callToBattleControllerShouldReturn200(): void
     {
         $client = static::createClient();
 
