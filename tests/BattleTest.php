@@ -2,13 +2,12 @@
 
 namespace tests;
 
+use PHPUnit\Framework\Attributes\Test;
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 
 class BattleTest extends WebTestCase
 {
-    /**
-     * @test
-     */
+    #[Test]
     public function callToBattleControllerShouldReturn200(): void
     {
         $client = static::createClient();
