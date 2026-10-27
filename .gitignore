@@ -19,7 +19,6 @@
 /public/bundles/
 /var/
 /vendor/
-/bin/console
 ###< symfony/framework-bundle ###
 
 ###> phpunit/phpunit ###
