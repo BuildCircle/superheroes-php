@@ -25,7 +25,7 @@ Superheroes can obviously only fight supervillains and vice versa. Add some vali
 
 ## Acceptance tests
 
-Install the dependencies and run the application on port 8080:
+You need PHP 8.2 or later and Composer. Install the dependencies and run the application on port 8080:
 
 ```
 composer install
