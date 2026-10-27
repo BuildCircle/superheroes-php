@@ -25,8 +25,13 @@ Superheroes can obviously only fight supervillains and vice versa. Add some vali
 
 ## Acceptance tests
 
-Run the application.
+Install the dependencies and run the application on port 8080:
 
-1. Should return Joker - http://localhost:5000/battle?hero=Batman&villain=Joker
-2. Should return Superman - http://localhost:5000/battle?hero=Superman&villain=Lex%20Luthor
+```
+composer install
+php -S localhost:8080 -t public
+```
+
+1. Should return Joker - http://localhost:8080/battle?hero=Batman&villain=Joker
+2. Should return Superman - http://localhost:8080/battle?hero=Superman&villain=Lex%20Luthor
 
